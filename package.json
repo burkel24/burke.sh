@@ -1,12 +1,19 @@
 {
-  "name": "@burke-sh/source",
+  "name": "@burkel24/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve burke-sh"
+  },
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.22.3",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

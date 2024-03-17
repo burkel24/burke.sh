@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@burkel24/blog": ["libs/blog/src/index.ts"],
+      "@burkel24/burke-sh-common": ["libs/burke-sh-common/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

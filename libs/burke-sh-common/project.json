@@ -1,0 +1,9 @@
+{
+  "name": "burke-sh-common",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/burke-sh-common/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project burke-sh-common --web",
+  "targets": {}
+}
