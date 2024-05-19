@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve burke-sh"
+    "start": "nx serve burke-sh",
+    "lint": "nx run-many --all --target=lint --fix"
   },
   "private": true,
   "dependencies": {

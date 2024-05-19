@@ -5,8 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import { ArticleDetail, BlogLanding } from '@burkel24/blog';
-import App from './app/app';
+import { routes } from './app/routes';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,22 +13,7 @@ const root = ReactDOM.createRoot(
 
 
 
-const router = createBrowserRouter([
-  {
-    path: "*",
-    element: <App />,
-    children: [
-      {
-        path: "blog",
-        element: <BlogLanding />
-      },
-      {
-        path: "blog/:slug",
-        element: <ArticleDetail />,
-      }
-    ]
-  },
-]);
+const router = createBrowserRouter(routes);
 
 root.render(
   <StrictMode>
