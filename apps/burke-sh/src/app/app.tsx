@@ -1,12 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { Navbar } from './Navbar';
+import { Outlet } from "react-router-dom";
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="burke-sh" />
+      <Navbar />
+      <Outlet />
     </div>
   );
 }

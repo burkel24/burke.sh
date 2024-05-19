@@ -1,0 +1,14 @@
+@import "../../../../burke-sh-common/src/lib/variables";
+
+.container {
+  padding: .25rem;
+
+  background-color: $cool-gray;
+  color: #FFF;
+
+  border-radius: 0.25rem;
+
+  &:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+}
